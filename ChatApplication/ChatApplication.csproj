@@ -216,6 +216,7 @@
       <DependentUpon>Model.edmx</DependentUpon>
       <LastGenOutput>Model.cs</LastGenOutput>
     </Content>
+    <Resource Include="Resource\chatDel.png" />
     <Resource Include="Resource\nomess.png" />
     <Resource Include="Resource\setting.png" />
     <Resource Include="Resource\logo.ico" />

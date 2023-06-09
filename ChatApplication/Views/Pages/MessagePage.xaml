@@ -28,15 +28,17 @@
             </TextBlock>
             <Button Name="txbClearChat"
                     Click="txbClearChat_Click"
-                    Content="Очистить чат"
+                   
                     Background="Transparent"
                     BorderBrush="Transparent"
-                    Width="78"
-                    Height="20"
+                 
                     HorizontalAlignment="Right"
-                    Margin="5"
+                    Margin="0,-9,0,0"
                     Foreground="White"
-                    ></Button>
+                    >
+               
+                <Image Source="/Resource/chatDel.png" Width="50" Height="50" />
+            </Button>
         </Grid>
         <Grid Grid.Row="1">
             <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Name="ListMessage" 
@@ -62,7 +64,7 @@
                                 </Ellipse.Fill>
                             </Ellipse>
                                 
-                            <StackPanel Orientation="Vertical">
+                            <StackPanel Orientation="Vertical" Background="Black">
                             <Label Content="{Binding IDUser}"
                                    Name="tlMyName"
                                    ContentStringFormat="{}"                           

@@ -44,9 +44,9 @@
                          Foreground="Gray"
                          Width="163"
                          ></TextBox>
-            
         </StackPanel>
         
+
          
         <ListView Name="UserListData" Background="Transparent"
                    BorderThickness="0" 
